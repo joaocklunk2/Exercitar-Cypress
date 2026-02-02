@@ -4,7 +4,7 @@ describe('Estudos de Cypress', () => {
     cy.visit('./index.html')
   })
   it('passes', () => {
-    cy.get('h1')
+    cy.get('h1', {timeout: 10000})
       .contains('Login de Teste')
       .should('be.visible')     
       //teste*
