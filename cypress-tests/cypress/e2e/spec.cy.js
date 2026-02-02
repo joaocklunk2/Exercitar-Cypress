@@ -6,7 +6,8 @@ describe('Estudos de Cypress', () => {
   it('passes', () => {
     cy.get('h1')
       .contains('Login de Teste')
-      .should('be.visible')      
+      .should('be.visible')     
+      //teste
   })
 })
 
