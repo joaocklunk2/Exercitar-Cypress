@@ -1,9 +1,16 @@
 {
   "devDependencies": {
-    "cypress": "^15.9.0"
+    "cypress": "^15.9.0",
+    "serve": "^14.2.0"
   },
+  "name": "exercitar-cypress",
+  "version": "1.0.0",
+  "private": true,
   "scripts": {
+    "start": "serve .",
     "cy:open": "cypress open",
-    "test": "cypress run"  
+    "test": "cypress run"
   }
+
+  
 }
